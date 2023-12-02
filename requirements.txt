@@ -87,7 +87,6 @@ beautifulsoup4
 pyrogram==1.4.16
 yt-dlp
 python-arq
-aiohttp
 carbonnow
 search_engine_parser
 googletrans
