@@ -220,10 +220,11 @@ else:
     BOT_API_URL = config.BOT_API_URL
     MONGO_DB_URL = config.MONGO_DB_URL
     MONGO_DB = config.MONGO_DB
-    HELP_IMG = config.HELP_IMG
+    HELP_IMG = config.HELP_IMG 
     GROUP_START_IMG = config.GROUP_START_IMG
     scenario_pic = config.scenario_pic
-
+    UPDATES_CHANNEL = config.UPDATES_CHANNEL
+    
     try:
         BL_CHATS = {int(x) for x in config.BL_CHATS or []}
     except ValueError:
