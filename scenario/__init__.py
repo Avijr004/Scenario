@@ -230,6 +230,8 @@ else:
     HEROKU_APP_NAME = config.HEROKU_APP_NAME
     UPSTREAM_BRANCH = config.UPSTREAM_BRANCH
     UPSTREAM_REPO = config.UPSTREAM_REPO
+    DEV_USERS = config.DEV_USERS
+    JOIN_LOGGER = config.JOIN_LOGGER
     
     try:
         BL_CHATS = {int(x) for x in config.BL_CHATS or []}
