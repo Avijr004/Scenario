@@ -20,7 +20,7 @@ JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-1001603027566")
 OWNER_ID = int(os.environ.get("OWNER_ID", "1556830659")) 
 
 # only one # don't remove other one.
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "lochakpochak", "Your_username_here")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "lochakpochak")
 
 # can add multiple with spaces
 DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "6088155585").split()}
