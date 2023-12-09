@@ -17,7 +17,7 @@ TOKEN = os.environ.get("TOKEN", "6491531689:AAFaxNvZyiyPE8lhZlo2dNv45yZoHVjSSIQ"
 JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-1001603027566")
 
 # only one # don't remove other one.
-OWNER_ID = int(os.environ.get("OWNER_ID", "1556830659", "fill_your_id_here_")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "1556830659")) 
 
 # only one # don't remove other one.
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "lochakpochak", "Your_username_here")
