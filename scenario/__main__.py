@@ -145,10 +145,10 @@ buttons = [
                     [                  
                        InlineKeyboardButton(
                              text="✨ sᴜᴘᴘᴏʀᴛ ✨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/{SUPPORT_CHAT}",
                        InlineKeyboardButton(
                              text="✨ ᴜᴩᴅᴀᴛᴇs ✨",
-                             url=f"https://t.me/{UPDATES_CHANNEL}")
+                             url=f"https://t.me/{UPDATES_CHANNEL}"
                      ],
                      [
                          InlineKeyboardButton(
