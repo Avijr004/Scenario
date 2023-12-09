@@ -26,7 +26,6 @@ from scenario import (
     BOT_NAME,
     EVENT_LOGS,
     HELP_IMG,
-    UPDATES_CHANNEL,
     GROUP_START_IMG,
     scenario_pic,
     dispatcher,
