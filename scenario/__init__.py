@@ -142,8 +142,9 @@ if ENV:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-else
+else:
     from config
+    
     TOKEN = Config.TOKEN
 
     try:
