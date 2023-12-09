@@ -144,6 +144,7 @@ if ENV:
 
 else: 
     from config
+    
     TOKEN = Config.TOKEN
 
     try:
