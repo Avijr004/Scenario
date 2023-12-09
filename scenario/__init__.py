@@ -142,8 +142,7 @@ if ENV:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-else:
-    from scenario.config import Config 
+else: 
     TOKEN = Config.TOKEN
 
     try:
