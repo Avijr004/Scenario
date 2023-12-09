@@ -143,8 +143,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    import config
-
+    from config import Development as Config 
     TOKEN = Config.TOKEN
 
     try:
