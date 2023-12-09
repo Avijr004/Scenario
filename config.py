@@ -1,5 +1,8 @@
 import os
 
+class Config(object):
+    LOGGER = True
+
 """
 Things to be noted you can fill values between empty "" 
 Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-100828822882")
@@ -148,3 +151,10 @@ CASH_API_KEY = os.environ.get("CASH_API_KEY", None) or "70F3DVSKF6RUAHQV"
 
 # Already filled no need to fill again.
 TIME_API_KEY = os.environ.get("TIME_API_KEY", None) or "K5PTMFOEC82M"
+
+class Production(Config):
+    LOGGER = True
+
+
+class Development(Config):
+    LOGGER = True
