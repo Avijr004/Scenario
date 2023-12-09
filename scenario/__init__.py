@@ -194,7 +194,7 @@ else:
     LOAD = config.LOAD
     NO_LOAD = config.NO_LOAD
     CASH_API_KEY = config.CASH_API_KEY
-    TIME_APKEY = config.TIME_API_KEY
+    TIME_API_KEY = config.TIME_API_KEY
     WALL_API = config.WALL_API
     MONGO_DB_URL = config.MONGO_DB_URL
     REDIS_URL = config.REDIS_URL
