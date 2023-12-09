@@ -221,7 +221,7 @@ else:
     MONGO_DB_URL = config.MONGO_DB_URL
     MONGO_DB = config.MONGO_DB
     HELP_IMG = config.HELP_IMG
-    START_IMG = config.START_IMG
+    GROUP_START_IMG = config.GROUP_START_IMG
     scenario_pic = config.scenario_pic
 
     try:
