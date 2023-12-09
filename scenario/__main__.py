@@ -22,6 +22,7 @@ from scenario import (
     URL,
     WEBHOOK,
     SUPPORT_CHAT,
+    UPDATES_CHANNEL,
     BOT_USERNAME,
     BOT_NAME,
     EVENT_LOGS,
@@ -136,7 +137,8 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text=f"⚓ ❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❄️ ⚓",
-                            url="https://t.me/ScenarioXbot?startgroup=true")
+                            url="https://t.me/ScenarioXbot?startgroup=true"
+                        ),
                     ],
                    [
                        InlineKeyboardButton(text="☘️ ᴀʙᴏᴜᴛ ☘️", callback_data="scenario_"),
@@ -155,7 +157,7 @@ buttons = [
                      [
                          InlineKeyboardButton(
                              text="🔰 ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs 🔰", callback_data="help_back"
-                         ),
+                         )
                      ]
     ]
 
