@@ -76,7 +76,7 @@ DONATION_LINK = os.environ.get("https://t.me/lochakpochak")
 # Wall api key for wallpapers # From:- https://wall.alphacoders.com/api.php
 WALL_API = os.environ.get("WALL_API", None) 
 
-To remove background of images # From:- https://www.remove.bg/
+# To remove background of images # From:- https://www.remove.bg/
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", "")
 
 ## More info written at right side from this line.
