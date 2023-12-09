@@ -145,87 +145,87 @@ if ENV:
 else:
     import config
     
-    TOKEN = Config.TOKEN
+    TOKEN = config.TOKEN
 
     try:
-        OWNER_ID = int(Config.OWNER_ID)
+        OWNER_ID = int(config.OWNER_ID)
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
-    OWNER_USERNAME = Config.OWNER_USERNAME
-    ALLOW_CHATS = Config.ALLOW_CHATS
+    OWNER_USERNAME = config.OWNER_USERNAME
+    ALLOW_CHATS = config.ALLOW_CHATS
     try:
-        DRAGONS = {int(x) for x in Config.DRAGONS or []}
-        DEV_USERS = {int(x) for x in Config.DEV_USERS or []}
+        DRAGONS = {int(x) for x in config.DRAGONS or []}
+        DEV_USERS = {int(x) for x in config.DEV_USERS or []}
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = {int(x) for x in Config.DEMONS or []}
+        DEMONS = {int(x) for x in config.DEMONS or []}
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        WOLVES = {int(x) for x in Config.WOLVES or []}
+        WOLVES = {int(x) for x in config.WOLVES or []}
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
     try:
-        TIGERS = {int(x) for x in Config.TIGERS or []}
+        TIGERS = {int(x) for x in config.TIGERS or []}
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
 
-    INFOPIC = Config.INFOPIC
-    EVENT_LOGS = Config.EVENT_LOGS 
-    ERROR_LOGS = Config.ERROR_LOGS
-    WEBHOOK = Config.WEBHOOK
-    URL = Config.URL
-    PORT = Config.PORT
-    CERT_PATH = Config.CERT_PATH
-    API_ID = Config.API_ID
-    API_HASH = Config.API_HASH
-    DB_URL = Config.DB_URL
-    DONATION_LINK = Config.DONATION_LINK
-    STRICT_GBAN = Config.STRICT_GBAN
-    WORKERS = Config.WORKERS
-    BAN_STICKER = Config.BAN_STICKER
-    TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
-    LOAD = Config.LOAD
-    NO_LOAD = Config.NO_LOAD
-    CASH_API_KEY = Config.CASH_API_KEY
-    TIME_APKEY = Config.TIME_API_KEY
-    WALL_API = Config.WALL_API
-    MONGO_DB_URL = Config.MONGO_DB_URL
-    REDIS_URL = Config.REDIS_URL
-    SUPPORT_CHAT = Config.SUPPORT_CHAT
-    SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
-    SPAMWATCH_API = Config.SPAMWATCH_API
-    REM_BG_API_KEY = Config.REM_BG_API_KEY
-    OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
-    APP_ID = Config.APP_ID
-    APP_HASH = Config.APP_HASH
-    BOT_ID = Config.BOT_ID
-    BOT_USERNAME = Config.BOT_USERNAME
-    STRING_SESSION = Config.STRING_SESSION
-    GENIUS_API_TOKEN = Config.GENIUS_API_TOKEN
-    YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
-    ALLOW_EXCL = Config.ALLOW_EXCL
-    TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
-    ARQ_API_URL = Config.ARQ_API_URL
-    GOOGLE_CHROME_BIN = Config.GOOGLE_CHROME_BIN
-    CHROME_DRIVER = Config.CHROME_DRIVER
-    BOT_NAME = Config.BOT_NAME
-    DEL_CMDS = Config.DEL_CMDS
-    BOT_API_URL = Config.BOT_API_URL
-    MONGO_DB_URL = Config.MONGO_DB_URL
-    MONGO_DB = Config.MONGO_DB
-    HELP_IMG = Config.HELP_IMG
-    START_IMG = Config.START_IMG
-    scenario_pic = Config.scenario_pic
+    INFOPIC = config.INFOPIC
+    EVENT_LOGS = config.EVENT_LOGS 
+    ERROR_LOGS = config.ERROR_LOGS
+    WEBHOOK = config.WEBHOOK
+    URL = config.URL
+    PORT = config.PORT
+    CERT_PATH = config.CERT_PATH
+    API_ID = config.API_ID
+    API_HASH = config.API_HASH
+    DB_URL = config.DB_URL
+    DONATION_LINK = config.DONATION_LINK
+    STRICT_GBAN = config.STRICT_GBAN
+    WORKERS = config.WORKERS
+    BAN_STICKER = config.BAN_STICKER
+    TEMP_DOWNLOAD_DIRECTORY = config.TEMP_DOWNLOAD_DIRECTORY
+    LOAD = config.LOAD
+    NO_LOAD = config.NO_LOAD
+    CASH_API_KEY = config.CASH_API_KEY
+    TIME_APKEY = config.TIME_API_KEY
+    WALL_API = config.WALL_API
+    MONGO_DB_URL = config.MONGO_DB_URL
+    REDIS_URL = config.REDIS_URL
+    SUPPORT_CHAT = config.SUPPORT_CHAT
+    SPAMWATCH_SUPPORT_CHAT = config.SPAMWATCH_SUPPORT_CHAT
+    SPAMWATCH_API = config.SPAMWATCH_API
+    REM_BG_API_KEY = config.REM_BG_API_KEY
+    OPENWEATHERMAP_ID = config.OPENWEATHERMAP_ID
+    APP_ID = config.APP_ID
+    APP_HASH = config.APP_HASH
+    BOT_ID = config.BOT_ID
+    BOT_USERNAME = config.BOT_USERNAME
+    STRING_SESSION = config.STRING_SESSION
+    GENIUS_API_TOKEN = config.GENIUS_API_TOKEN
+    YOUTUBE_API_KEY = config.YOUTUBE_API_KEY
+    ALLOW_EXCL = config.ALLOW_EXCL
+    TEMP_DOWNLOAD_DIRECTORY = config.TEMP_DOWNLOAD_DIRECTORY
+    ARQ_API_URL = config.ARQ_API_URL
+    GOOGLE_CHROME_BIN = config.GOOGLE_CHROME_BIN
+    CHROME_DRIVER = config.CHROME_DRIVER
+    BOT_NAME = config.BOT_NAME
+    DEL_CMDS = config.DEL_CMDS
+    BOT_API_URL = config.BOT_API_URL
+    MONGO_DB_URL = config.MONGO_DB_URL
+    MONGO_DB = config.MONGO_DB
+    HELP_IMG = config.HELP_IMG
+    START_IMG = config.START_IMG
+    scenario_pic = config.scenario_pic
 
     try:
-        BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
+        BL_CHATS = {int(x) for x in config.BL_CHATS or []}
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
         
