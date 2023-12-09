@@ -142,9 +142,8 @@ if ENV:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-else: 
+else
     from config
-    
     TOKEN = Config.TOKEN
 
     try:
@@ -194,7 +193,7 @@ else:
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
     CASH_API_KEY = Config.CASH_API_KEY
-    TIME_API_KEY = Config.TIME_API_KEY
+    TIME_APKEY = Config.TIME_API_KEY
     WALL_API = Config.WALL_API
     MONGO_DB_URL = Config.MONGO_DB_URL
     REDIS_URL = Config.REDIS_URL
