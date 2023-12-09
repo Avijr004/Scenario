@@ -229,6 +229,7 @@ else:
     HEROKU_API_KEY = config.HEROKU_API_KEY
     HEROKU_APP_NAME = config.HEROKU_APP_NAME
     UPSTREAM_BRANCH = config.UPSTREAM_BRANCH
+    UPSTREAM_REPO = config.UPSTREAM_REPO
     
     try:
         BL_CHATS = {int(x) for x in config.BL_CHATS or []}
