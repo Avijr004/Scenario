@@ -94,7 +94,7 @@ SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None) # Use @S
 SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None) # From https://t.me/SpamWatchBot 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tessa_Ro_bot") # Bot Username
 
-STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOIwBu5tshZMHbtj0ifWhcrHggvWzjyW1UPH9NVMdv-f4d43coEbQ_RdB9DF4g1Wf8kVGZ2t7cWd1V86EwzL4wP5G0CdZb3GqpYFpUk08koJH01AMihEtBB89VgNXPR7_432wdQmbN-RR5OlZJ-d93M9-ifGxzaQyHVZN43wVr9KZv2z-vQA7T2v4a-2A2D2442gMlRJ1gJJJ-6W7Jxc06kUm3d_f8BOGL34ms8dcCmg82DkbeqY2dvFutqoOYQHDZR3682I_BExkl1ELDIZZmb2wr2EUNJZq7IUL1-p9bRCZX1Iad44Vssi0A-JicNyLz8D2X54eo3a_gU36myIzNeL1G1A=") # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOKoBuyMMGCB7Wi95uBoVWboIXLis5CYzoqTcZKiPF-r5kXqljjd5a-ZJHCcxtLmzzXm8vrWcbIQQZmwRqSwxksSTe7azpKQnOlYDnliYBax8CURnwc8-ANnssEsu1KZB_TZxKGyQgY76CVak8POPdHJAm6p46iXpr7HNBsLQaYo8Xq4zrCMdSdt6jQ5SiEwkJi97ylf-q0hrRzSQ7Q0eL1lsC5SrI3T3E_PtHWbMwMaTGUn2zysYSLl1ROC44VSPOOjEOwscJMsUETNFykNXgBizOYRMVYA8ubni1lwRn5l_DGrIORCMQdLOYi2uNwxt3dcmoA_SOERzxjkTydRf6MgndbY=") # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
 REPO = "TeamScenario/Scenario"
 DEVELOPER = "lochakpochak"
 APP_ID = API_ID
