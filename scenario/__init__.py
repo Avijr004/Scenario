@@ -224,6 +224,8 @@ else:
     GROUP_START_IMG = config.GROUP_START_IMG
     scenario_pic = config.scenario_pic
     UPDATES_CHANNEL = config.UPDATES_CHANNEL
+    REPO = "TeamScenario/Scenario"
+    DEVELOPER = "TeamScenario"
     
     try:
         BL_CHATS = {int(x) for x in config.BL_CHATS or []}
