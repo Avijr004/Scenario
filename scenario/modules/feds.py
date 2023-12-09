@@ -12,7 +12,6 @@ import scenario.modules.sql.feds_sql as sql
 from scenario import (
     EVENT_LOGS,
     LOGGER,
-    DEVELOPER,
     REPO,
     SUPPORT_CHAT,
     OWNER_ID,
