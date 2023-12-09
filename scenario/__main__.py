@@ -145,16 +145,18 @@ buttons = [
                     [                  
                        InlineKeyboardButton(
                              text="✨ sᴜᴘᴘᴏʀᴛ ✨",
-                             url=f"https://t.me/{SUPPORT_CHAT}",
+                             url=f"https://t.me/{SUPPORT_CHAT}"
+                       ),
                        InlineKeyboardButton(
                              text="✨ ᴜᴩᴅᴀᴛᴇs ✨",
                              url=f"https://t.me/{UPDATES_CHANNEL}"
+                       ),
                      ],
                      [
                          InlineKeyboardButton(
                              text="🔰 ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs 🔰", callback_data="help_back"
                          ),
-                     ],
+                     ]
     ]
 
                     
