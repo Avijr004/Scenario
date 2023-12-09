@@ -226,6 +226,9 @@ else:
     UPDATES_CHANNEL = config.UPDATES_CHANNEL
     REPO = "TeamScenario/Scenario"
     DEVELOPER = "TeamScenario"
+    HEROKU_API_KEY = config.HEROKU_API_KEY
+    HEROKU_APP_NAME = config.HEROKU_APP_NAME
+    UPSTREAM_BRANCH = config.UPSTREAM_BRANCH
     
     try:
         BL_CHATS = {int(x) for x in config.BL_CHATS or []}
